@@ -1,0 +1,42 @@
+.contacts__sec{
+	width: 100%;
+	height: auto;
+}
+	.contact-block{
+		width: 100%;
+		height: auto;
+	}
+	.contacts-content{
+		text-align: center;
+		border-bottom: dashed 1px #C8C1C8;
+		padding: 20px 0;
+		h1{
+			color: #E22840;
+			font-size: 18px;
+			margin: 5px 0;
+		}
+		p{
+			color: #262626;
+			font-size: 18px;
+			margin: 5px 0;
+		}
+		&:nth-child(4){
+			border: 0;
+		}
+
+		}
+		.map{
+			border: 10px solid;
+			border-image: url(../images/border.png)  round round 3;
+			margin: 0 15px;
+			iframe{
+				width: 100%;
+				max-height: 260px;
+				
+			}
+		}
+	.requisites{
+		p{
+			font-size: 14px;
+		}
+	}

@@ -1,0 +1,24 @@
+.news__sec{
+
+}
+	.news__block{
+		border-bottom: dashed 1px #C8C1C8;
+		padding: 22px 10px;
+		margin: 0 10px;
+		box-sizing:border-box;
+		h4{
+			font-size: 18px;
+			color: #E1223B;
+		}
+		p{
+			font-size: 14px;
+			color: #434342;
+			margin: 0 0 0 10px;
+		}
+		span{
+			font-weight: bold;
+		}
+		&:nth-child(5){
+			border: 0;
+		}
+	}

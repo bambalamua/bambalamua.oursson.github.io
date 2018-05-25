@@ -1,0 +1,39 @@
+.aside-filter{
+	width: 21%;
+	float: left;
+	border-bottom: 1px solid #d7d7d7;
+	padding: 0 0 20px 0;
+}
+	.product-list{
+		li{
+			color: #423934;
+			margin: 5px 0 0 25px;
+		}
+		a{
+			color: #423934;
+			font-size: 14px;
+			transition:0.5s;
+			&:hover{
+				background:#FF1D36;
+				border-radius: 5px;
+			}
+		}
+		.header-list{
+			margin: 0 0 0 0;
+		}
+	}
+.menu-button{
+	width: 20px;
+	height: 20px;
+	display: none;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	cursor: pointer;
+	&:hover{
+		transform: scale(1.2);
+	}
+}
+.middle__sec{
+	position: relative;
+}
